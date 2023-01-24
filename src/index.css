@@ -1,0 +1,17 @@
+body {
+  background-color: #6699cc;
+}
+.container {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.main-navbar {
+  padding: 22px 30px;
+  background-color: white;
+  box-shadow: 0 2.98px 7.46px rgba(0, 0, 0, 0.1);
+}
+.airbnb-logo {
+  width: 82px;
+  height: 25px;
+}
