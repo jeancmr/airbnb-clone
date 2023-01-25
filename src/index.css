@@ -1,17 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: #6699cc;
+  font-family: "Poppins", sans-serif;
+  color: #222;
 }
 .container {
   max-width: 550px;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
 .main-navbar {
+  display: flex;
+  align-items: center;
   padding: 22px 30px;
-  background-color: white;
-  box-shadow: 0 2.98px 7.46px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
 .airbnb-logo {
   width: 82px;
   height: 25px;
+}
+
+/* ############## HERO SECTION */
+.hero {
+  background-color: #fff;
+}
+.img-box {
+  display: flex;
+  justify-content: center;
+  padding: 26px 0 28px 0;
+}
+.phtgrid-img {
+  width: 395px;
+}
+.text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-left: 36px;
+}
+.hero-title {
+  color: #000;
+  font-weight: 600;
+  font-size: 36px;
+}
+.hero-paragraph {
+  font-weight: 300;
+  font-size: 16px;
+  max-width: 320px;
 }
