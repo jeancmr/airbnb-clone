@@ -69,11 +69,12 @@ body {
   gap: 9px;
   /* padding-left: 37px; */
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
+  width: 176px;
 }
 
 .card-img {
-  width: 176px;
+  width: 100%;
   border-radius: 9px;
 }
 
